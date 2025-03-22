@@ -1,0 +1,16 @@
+package.xml
+setup.cfg
+setup.py
+../../build/bme680_sensor/bme680_sensor.egg-info/PKG-INFO
+../../build/bme680_sensor/bme680_sensor.egg-info/SOURCES.txt
+../../build/bme680_sensor/bme680_sensor.egg-info/dependency_links.txt
+../../build/bme680_sensor/bme680_sensor.egg-info/entry_points.txt
+../../build/bme680_sensor/bme680_sensor.egg-info/requires.txt
+../../build/bme680_sensor/bme680_sensor.egg-info/top_level.txt
+../../build/bme680_sensor/bme680_sensor.egg-info/zip-safe
+bme680_sensor/__init__.py
+bme680_sensor/bme680_node.py
+resource/bme680_sensor
+test/test_copyright.py
+test/test_flake8.py
+test/test_pep257.py

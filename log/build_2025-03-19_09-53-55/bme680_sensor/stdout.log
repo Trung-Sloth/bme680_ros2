@@ -1,0 +1,22 @@
+running develop
+running egg_info
+creating bme680_sensor.egg-info
+writing bme680_sensor.egg-info/PKG-INFO
+writing dependency_links to bme680_sensor.egg-info/dependency_links.txt
+writing entry points to bme680_sensor.egg-info/entry_points.txt
+writing requirements to bme680_sensor.egg-info/requires.txt
+writing top-level names to bme680_sensor.egg-info/top_level.txt
+writing manifest file 'bme680_sensor.egg-info/SOURCES.txt'
+reading manifest file 'bme680_sensor.egg-info/SOURCES.txt'
+writing manifest file 'bme680_sensor.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/trung/BME_ws/install/bme680_sensor/lib/python3.10/site-packages/bme680-sensor.egg-link (link to .)
+Installing bme680_node script to /home/trung/BME_ws/install/bme680_sensor/lib/bme680_sensor
+
+Installed /home/trung/BME_ws/build/bme680_sensor
+running symlink_data
+creating /home/trung/BME_ws/install/bme680_sensor/share/ament_index
+creating /home/trung/BME_ws/install/bme680_sensor/share/ament_index/resource_index
+creating /home/trung/BME_ws/install/bme680_sensor/share/ament_index/resource_index/packages
+symbolically linking /home/trung/BME_ws/build/bme680_sensor/resource/bme680_sensor -> /home/trung/BME_ws/install/bme680_sensor/share/ament_index/resource_index/packages
+symbolically linking /home/trung/BME_ws/build/bme680_sensor/package.xml -> /home/trung/BME_ws/install/bme680_sensor/share/bme680_sensor

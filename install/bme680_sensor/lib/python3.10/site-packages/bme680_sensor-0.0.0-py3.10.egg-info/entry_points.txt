@@ -1,0 +1,3 @@
+[console_scripts]
+bme680_node = bme680_sensor.bme680_node:main
+
