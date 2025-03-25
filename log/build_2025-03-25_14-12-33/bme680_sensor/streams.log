@@ -1,0 +1,17 @@
+[3.728s] Invoking command in '/home/trung/BME_ws/build/bme680_sensor': PYTHONPATH=/home/trung/BME_ws/build/bme680_sensor/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/trung/BME_ws/install/bme680_sensor/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/trung/BME_ws/build/bme680_sensor/build --no-deps symlink_data
+[5.256s] running develop
+[6.294s] running egg_info
+[6.294s] writing bme680_sensor.egg-info/PKG-INFO
+[6.296s] writing dependency_links to bme680_sensor.egg-info/dependency_links.txt
+[6.296s] writing entry points to bme680_sensor.egg-info/entry_points.txt
+[6.297s] writing requirements to bme680_sensor.egg-info/requires.txt
+[6.298s] writing top-level names to bme680_sensor.egg-info/top_level.txt
+[6.469s] reading manifest file 'bme680_sensor.egg-info/SOURCES.txt'
+[6.474s] writing manifest file 'bme680_sensor.egg-info/SOURCES.txt'
+[6.481s] running build_ext
+[6.482s] Creating /home/trung/BME_ws/install/bme680_sensor/lib/python3.10/site-packages/bme680-sensor.egg-link (link to .)
+[6.486s] Installing bme680_node script to /home/trung/BME_ws/install/bme680_sensor/lib/bme680_sensor
+[6.489s] 
+[6.489s] Installed /home/trung/BME_ws/build/bme680_sensor
+[6.490s] running symlink_data
+[6.654s] Invoked command in '/home/trung/BME_ws/build/bme680_sensor' returned '0': PYTHONPATH=/home/trung/BME_ws/build/bme680_sensor/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/trung/BME_ws/install/bme680_sensor/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/trung/BME_ws/build/bme680_sensor/build --no-deps symlink_data

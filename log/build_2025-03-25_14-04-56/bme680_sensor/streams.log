@@ -1,0 +1,27 @@
+[3.867s] Invoking command in '/home/trung/BME_ws/src/bme680_sensor': PYTHONPATH=/home/trung/BME_ws/build/bme680_sensor/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/trung/BME_ws/install/bme680_sensor/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/bme680_sensor build --build-base /home/trung/BME_ws/build/bme680_sensor/build install --record /home/trung/BME_ws/build/bme680_sensor/install.log --single-version-externally-managed install_data
+[4.660s] /home/trung/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py:289: UserWarning: Unknown distribution option: 'tests_require'
+[4.661s]   warnings.warn(msg)
+[5.205s] running egg_info
+[5.293s] writing ../../build/bme680_sensor/bme680_sensor.egg-info/PKG-INFO
+[5.296s] writing dependency_links to ../../build/bme680_sensor/bme680_sensor.egg-info/dependency_links.txt
+[5.297s] writing entry points to ../../build/bme680_sensor/bme680_sensor.egg-info/entry_points.txt
+[5.298s] writing requirements to ../../build/bme680_sensor/bme680_sensor.egg-info/requires.txt
+[5.300s] writing top-level names to ../../build/bme680_sensor/bme680_sensor.egg-info/top_level.txt
+[5.481s] reading manifest file '../../build/bme680_sensor/bme680_sensor.egg-info/SOURCES.txt'
+[5.488s] writing manifest file '../../build/bme680_sensor/bme680_sensor.egg-info/SOURCES.txt'
+[5.489s] running build
+[5.490s] running build_py
+[5.491s] copying bme680_sensor/__init__.py -> /home/trung/BME_ws/build/bme680_sensor/build/lib/bme680_sensor
+[5.492s] copying bme680_sensor/bme680_node.py -> /home/trung/BME_ws/build/bme680_sensor/build/lib/bme680_sensor
+[5.495s] running install
+[5.515s] running install_lib
+[5.607s] running install_data
+[5.609s] copying resource/bme680_sensor -> /home/trung/BME_ws/install/bme680_sensor/share/ament_index/resource_index/packages
+[5.611s] copying package.xml -> /home/trung/BME_ws/install/bme680_sensor/share/bme680_sensor
+[5.612s] running install_egg_info
+[5.705s] removing '/home/trung/BME_ws/install/bme680_sensor/lib/python3.10/site-packages/bme680_sensor-0.0.0-py3.10.egg-info' (and everything under it)
+[5.707s] Copying ../../build/bme680_sensor/bme680_sensor.egg-info to /home/trung/BME_ws/install/bme680_sensor/lib/python3.10/site-packages/bme680_sensor-0.0.0-py3.10.egg-info
+[5.714s] running install_scripts
+[6.511s] Installing bme680_node script to /home/trung/BME_ws/install/bme680_sensor/lib/bme680_sensor
+[6.513s] writing list of installed files to '/home/trung/BME_ws/build/bme680_sensor/install.log'
+[6.652s] Invoked command in '/home/trung/BME_ws/src/bme680_sensor' returned '0': PYTHONPATH=/home/trung/BME_ws/build/bme680_sensor/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/trung/BME_ws/install/bme680_sensor/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/bme680_sensor build --build-base /home/trung/BME_ws/build/bme680_sensor/build install --record /home/trung/BME_ws/build/bme680_sensor/install.log --single-version-externally-managed install_data

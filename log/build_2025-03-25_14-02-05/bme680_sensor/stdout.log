@@ -1,0 +1,23 @@
+running egg_info
+writing ../../build/bme680_sensor/bme680_sensor.egg-info/PKG-INFO
+writing dependency_links to ../../build/bme680_sensor/bme680_sensor.egg-info/dependency_links.txt
+writing entry points to ../../build/bme680_sensor/bme680_sensor.egg-info/entry_points.txt
+writing requirements to ../../build/bme680_sensor/bme680_sensor.egg-info/requires.txt
+writing top-level names to ../../build/bme680_sensor/bme680_sensor.egg-info/top_level.txt
+reading manifest file '../../build/bme680_sensor/bme680_sensor.egg-info/SOURCES.txt'
+writing manifest file '../../build/bme680_sensor/bme680_sensor.egg-info/SOURCES.txt'
+running build
+running build_py
+copying bme680_sensor/bme680_node.py -> /home/trung/BME_ws/build/bme680_sensor/build/lib/bme680_sensor
+running install
+running install_lib
+copying /home/trung/BME_ws/build/bme680_sensor/build/lib/bme680_sensor/bme680_node.py -> /home/trung/BME_ws/install/bme680_sensor/lib/python3.10/site-packages/bme680_sensor
+byte-compiling /home/trung/BME_ws/install/bme680_sensor/lib/python3.10/site-packages/bme680_sensor/bme680_node.py to bme680_node.cpython-310.pyc
+running install_data
+copying package.xml -> /home/trung/BME_ws/install/bme680_sensor/share/bme680_sensor
+running install_egg_info
+removing '/home/trung/BME_ws/install/bme680_sensor/lib/python3.10/site-packages/bme680_sensor-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/bme680_sensor/bme680_sensor.egg-info to /home/trung/BME_ws/install/bme680_sensor/lib/python3.10/site-packages/bme680_sensor-0.0.0-py3.10.egg-info
+running install_scripts
+Installing bme680_node script to /home/trung/BME_ws/install/bme680_sensor/lib/bme680_sensor
+writing list of installed files to '/home/trung/BME_ws/build/bme680_sensor/install.log'

@@ -1,0 +1,119 @@
+[0.000000] (-) TimerEvent: {}
+[0.001682] (bme680_sensor) JobQueued: {'identifier': 'bme680_sensor', 'dependencies': OrderedDict()}
+[0.002365] (bme680_sensor) JobStarted: {'identifier': 'bme680_sensor'}
+[0.098822] (-) TimerEvent: {}
+[0.199536] (-) TimerEvent: {}
+[0.300334] (-) TimerEvent: {}
+[0.401124] (-) TimerEvent: {}
+[0.501881] (-) TimerEvent: {}
+[0.602536] (-) TimerEvent: {}
+[0.703260] (-) TimerEvent: {}
+[0.804014] (-) TimerEvent: {}
+[0.904761] (-) TimerEvent: {}
+[1.005554] (-) TimerEvent: {}
+[1.106237] (-) TimerEvent: {}
+[1.207024] (-) TimerEvent: {}
+[1.307689] (-) TimerEvent: {}
+[1.408399] (-) TimerEvent: {}
+[1.509079] (-) TimerEvent: {}
+[1.609965] (-) TimerEvent: {}
+[1.710973] (-) TimerEvent: {}
+[1.811751] (-) TimerEvent: {}
+[1.912548] (-) TimerEvent: {}
+[2.013582] (-) TimerEvent: {}
+[2.114333] (-) TimerEvent: {}
+[2.215028] (-) TimerEvent: {}
+[2.315688] (-) TimerEvent: {}
+[2.416386] (-) TimerEvent: {}
+[2.517055] (-) TimerEvent: {}
+[2.617718] (-) TimerEvent: {}
+[2.718389] (-) TimerEvent: {}
+[2.819055] (-) TimerEvent: {}
+[2.919751] (-) TimerEvent: {}
+[3.020484] (-) TimerEvent: {}
+[3.121203] (-) TimerEvent: {}
+[3.221959] (-) TimerEvent: {}
+[3.322664] (-) TimerEvent: {}
+[3.423421] (-) TimerEvent: {}
+[3.524166] (-) TimerEvent: {}
+[3.624984] (-) TimerEvent: {}
+[3.726045] (-) TimerEvent: {}
+[3.827047] (-) TimerEvent: {}
+[3.832177] (bme680_sensor) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'develop', '--uninstall', '--editable', '--build-directory', '/home/trung/BME_ws/build/bme680_sensor/build'], 'cwd': '/home/trung/BME_ws/build/bme680_sensor', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'trung', 'SSH_CLIENT': '172.20.10.3 34134 22', 'LC_TIME': 'vi_VN', 'XDG_SESSION_TYPE': 'tty', 'GIT_ASKPASS': '/home/trung/.vscode-server/cli/servers/Stable-e54c774e0add60467559eb0d1e229c6452cf8447/server/extensions/git/dist/askpass.sh', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'BROWSER': '/home/trung/.vscode-server/cli/servers/Stable-e54c774e0add60467559eb0d1e229c6452cf8447/server/bin/helpers/browser.sh', 'MOTD_SHOWN': 'pam', 'HOME': '/home/trung', 'TERM_PROGRAM_VERSION': '1.97.2', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-462095ba-2462-4d8b-89f6-fbbc3e5225e1.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/trung/.vscode-server/cli/servers/Stable-e54c774e0add60467559eb0d1e229c6452cf8447/server/extensions/git/dist/askpass-main.js', 'LC_MONETARY': 'vi_VN', 'VSCODE_GIT_ASKPASS_NODE': '/home/trung/.vscode-server/cli/servers/Stable-e54c774e0add60467559eb0d1e229c6452cf8447/server/node', 'SSL_CERT_FILE': '/usr/lib/ssl/certs/ca-certificates.crt', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'COLCON_PREFIX_PATH': '/home/trung/BME_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'trung', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '7', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/trung/.vscode-server/cli/servers/Stable-e54c774e0add60467559eb0d1e229c6452cf8447/server/bin/remote-cli:/home/trung/.local/bin:/opt/ros/humble/bin:/home/trung/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'LC_ADDRESS': 'vi_VN', 'XDG_RUNTIME_DIR': '/run/user/1000', 'SSL_CERT_DIR': '/usr/lib/ssl/certs', 'LANG': 'en_US.UTF-8', 'LC_TELEPHONE': 'vi_VN', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-4ab19e6afa.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/home/trung/BME_ws/install/bme680_sensor:/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'vi_VN', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'vi_VN', 'LC_IDENTIFICATION': 'vi_VN', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/trung/BME_ws/build/bme680_sensor', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '172.20.10.3 34134 172.20.10.2 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/trung/BME_ws/build/bme680_sensor/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/trung/BME_ws/install/bme680_sensor/lib/python3.10/site-packages:/home/trung/BME_ws/build/bme680_sensor:/home/trung/BME_ws/install/bme680_sensor/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'vi_VN', 'LC_PAPER': 'vi_VN', 'COLCON': '1'}, 'shell': False}
+[3.927130] (-) TimerEvent: {}
+[4.028185] (-) TimerEvent: {}
+[4.129154] (-) TimerEvent: {}
+[4.230220] (-) TimerEvent: {}
+[4.331046] (-) TimerEvent: {}
+[4.431764] (-) TimerEvent: {}
+[4.532430] (-) TimerEvent: {}
+[4.633156] (-) TimerEvent: {}
+[4.733881] (-) TimerEvent: {}
+[4.834624] (-) TimerEvent: {}
+[4.935369] (-) TimerEvent: {}
+[5.036108] (-) TimerEvent: {}
+[5.137045] (-) TimerEvent: {}
+[5.237807] (-) TimerEvent: {}
+[5.335464] (bme680_sensor) StdoutLine: {'line': b'running develop\n'}
+[5.337964] (-) TimerEvent: {}
+[5.438699] (-) TimerEvent: {}
+[5.539469] (-) TimerEvent: {}
+[5.640174] (-) TimerEvent: {}
+[5.740848] (-) TimerEvent: {}
+[5.841512] (-) TimerEvent: {}
+[5.942235] (-) TimerEvent: {}
+[6.042989] (-) TimerEvent: {}
+[6.143718] (-) TimerEvent: {}
+[6.244403] (-) TimerEvent: {}
+[6.345076] (-) TimerEvent: {}
+[6.354362] (bme680_sensor) StdoutLine: {'line': b'Removing /home/trung/BME_ws/install/bme680_sensor/lib/python3.10/site-packages/bme680-sensor.egg-link (link to .)\n'}
+[6.445350] (-) TimerEvent: {}
+[6.509875] (bme680_sensor) CommandEnded: {'returncode': 0}
+[6.513789] (bme680_sensor) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/bme680_sensor', 'build', '--build-base', '/home/trung/BME_ws/build/bme680_sensor/build', 'install', '--record', '/home/trung/BME_ws/build/bme680_sensor/install.log', '--single-version-externally-managed', 'install_data', '--force'], 'cwd': '/home/trung/BME_ws/src/bme680_sensor', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'trung', 'SSH_CLIENT': '172.20.10.3 34134 22', 'LC_TIME': 'vi_VN', 'XDG_SESSION_TYPE': 'tty', 'GIT_ASKPASS': '/home/trung/.vscode-server/cli/servers/Stable-e54c774e0add60467559eb0d1e229c6452cf8447/server/extensions/git/dist/askpass.sh', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'BROWSER': '/home/trung/.vscode-server/cli/servers/Stable-e54c774e0add60467559eb0d1e229c6452cf8447/server/bin/helpers/browser.sh', 'MOTD_SHOWN': 'pam', 'HOME': '/home/trung', 'TERM_PROGRAM_VERSION': '1.97.2', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-462095ba-2462-4d8b-89f6-fbbc3e5225e1.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/trung/.vscode-server/cli/servers/Stable-e54c774e0add60467559eb0d1e229c6452cf8447/server/extensions/git/dist/askpass-main.js', 'LC_MONETARY': 'vi_VN', 'VSCODE_GIT_ASKPASS_NODE': '/home/trung/.vscode-server/cli/servers/Stable-e54c774e0add60467559eb0d1e229c6452cf8447/server/node', 'SSL_CERT_FILE': '/usr/lib/ssl/certs/ca-certificates.crt', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'COLCON_PREFIX_PATH': '/home/trung/BME_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'trung', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '7', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/trung/.vscode-server/cli/servers/Stable-e54c774e0add60467559eb0d1e229c6452cf8447/server/bin/remote-cli:/home/trung/.local/bin:/opt/ros/humble/bin:/home/trung/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'LC_ADDRESS': 'vi_VN', 'XDG_RUNTIME_DIR': '/run/user/1000', 'SSL_CERT_DIR': '/usr/lib/ssl/certs', 'LANG': 'en_US.UTF-8', 'LC_TELEPHONE': 'vi_VN', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-4ab19e6afa.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/home/trung/BME_ws/install/bme680_sensor:/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'vi_VN', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'vi_VN', 'LC_IDENTIFICATION': 'vi_VN', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/trung/BME_ws/build/bme680_sensor', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '172.20.10.3 34134 172.20.10.2 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/trung/BME_ws/build/bme680_sensor/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/trung/BME_ws/install/bme680_sensor/lib/python3.10/site-packages:/home/trung/BME_ws/build/bme680_sensor:/home/trung/BME_ws/install/bme680_sensor/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'vi_VN', 'LC_PAPER': 'vi_VN', 'COLCON': '1'}, 'shell': False}
+[6.545494] (-) TimerEvent: {}
+[6.646157] (-) TimerEvent: {}
+[6.746980] (-) TimerEvent: {}
+[6.847748] (-) TimerEvent: {}
+[6.948466] (-) TimerEvent: {}
+[7.049181] (-) TimerEvent: {}
+[7.149868] (-) TimerEvent: {}
+[7.250580] (-) TimerEvent: {}
+[7.351464] (-) TimerEvent: {}
+[7.452138] (-) TimerEvent: {}
+[7.552808] (-) TimerEvent: {}
+[7.653520] (-) TimerEvent: {}
+[7.754262] (-) TimerEvent: {}
+[7.855016] (-) TimerEvent: {}
+[7.952613] (bme680_sensor) StdoutLine: {'line': b'running egg_info\n'}
+[7.955130] (-) TimerEvent: {}
+[7.955763] (bme680_sensor) StdoutLine: {'line': b'writing ../../build/bme680_sensor/bme680_sensor.egg-info/PKG-INFO\n'}
+[7.956618] (bme680_sensor) StdoutLine: {'line': b'writing dependency_links to ../../build/bme680_sensor/bme680_sensor.egg-info/dependency_links.txt\n'}
+[7.957557] (bme680_sensor) StdoutLine: {'line': b'writing entry points to ../../build/bme680_sensor/bme680_sensor.egg-info/entry_points.txt\n'}
+[7.958489] (bme680_sensor) StdoutLine: {'line': b'writing requirements to ../../build/bme680_sensor/bme680_sensor.egg-info/requires.txt\n'}
+[7.959292] (bme680_sensor) StdoutLine: {'line': b'writing top-level names to ../../build/bme680_sensor/bme680_sensor.egg-info/top_level.txt\n'}
+[8.055307] (-) TimerEvent: {}
+[8.108284] (bme680_sensor) StdoutLine: {'line': b"reading manifest file '../../build/bme680_sensor/bme680_sensor.egg-info/SOURCES.txt'\n"}
+[8.112922] (bme680_sensor) StdoutLine: {'line': b"writing manifest file '../../build/bme680_sensor/bme680_sensor.egg-info/SOURCES.txt'\n"}
+[8.113617] (bme680_sensor) StdoutLine: {'line': b'running build\n'}
+[8.114339] (bme680_sensor) StdoutLine: {'line': b'running build_py\n'}
+[8.114899] (bme680_sensor) StdoutLine: {'line': b'copying bme680_sensor/bme680_node.py -> /home/trung/BME_ws/build/bme680_sensor/build/lib/bme680_sensor\n'}
+[8.116341] (bme680_sensor) StdoutLine: {'line': b'running install\n'}
+[8.117721] (bme680_sensor) StdoutLine: {'line': b'running install_lib\n'}
+[8.121214] (bme680_sensor) StdoutLine: {'line': b'copying /home/trung/BME_ws/build/bme680_sensor/build/lib/bme680_sensor/__init__.py -> /home/trung/BME_ws/install/bme680_sensor/lib/python3.10/site-packages/bme680_sensor\n'}
+[8.122253] (bme680_sensor) StdoutLine: {'line': b'copying /home/trung/BME_ws/build/bme680_sensor/build/lib/bme680_sensor/bme680_node.py -> /home/trung/BME_ws/install/bme680_sensor/lib/python3.10/site-packages/bme680_sensor\n'}
+[8.124885] (bme680_sensor) StdoutLine: {'line': b'byte-compiling /home/trung/BME_ws/install/bme680_sensor/lib/python3.10/site-packages/bme680_sensor/__init__.py to __init__.cpython-310.pyc\n'}
+[8.126443] (bme680_sensor) StdoutLine: {'line': b'byte-compiling /home/trung/BME_ws/install/bme680_sensor/lib/python3.10/site-packages/bme680_sensor/bme680_node.py to bme680_node.cpython-310.pyc\n'}
+[8.130034] (bme680_sensor) StdoutLine: {'line': b'running install_data\n'}
+[8.130708] (bme680_sensor) StdoutLine: {'line': b'copying resource/bme680_sensor -> /home/trung/BME_ws/install/bme680_sensor/share/ament_index/resource_index/packages\n'}
+[8.131554] (bme680_sensor) StdoutLine: {'line': b'copying package.xml -> /home/trung/BME_ws/install/bme680_sensor/share/bme680_sensor\n'}
+[8.132242] (bme680_sensor) StdoutLine: {'line': b'running install_egg_info\n'}
+[8.140376] (bme680_sensor) StdoutLine: {'line': b'Copying ../../build/bme680_sensor/bme680_sensor.egg-info to /home/trung/BME_ws/install/bme680_sensor/lib/python3.10/site-packages/bme680_sensor-0.0.0-py3.10.egg-info\n'}
+[8.146698] (bme680_sensor) StdoutLine: {'line': b'running install_scripts\n'}
+[8.155477] (-) TimerEvent: {}
+[8.227178] (bme680_sensor) StdoutLine: {'line': b'Installing bme680_node script to /home/trung/BME_ws/install/bme680_sensor/lib/bme680_sensor\n'}
+[8.228999] (bme680_sensor) StdoutLine: {'line': b"writing list of installed files to '/home/trung/BME_ws/build/bme680_sensor/install.log'\n"}
+[8.255678] (-) TimerEvent: {}
+[8.356820] (-) TimerEvent: {}
+[8.369508] (bme680_sensor) CommandEnded: {'returncode': 0}
+[8.424750] (bme680_sensor) JobEnded: {'identifier': 'bme680_sensor', 'rc': 0}
+[8.428422] (-) EventReactorShutdown: {}
