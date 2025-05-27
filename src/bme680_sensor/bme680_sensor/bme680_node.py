@@ -34,7 +34,10 @@ class PMS7003Node(Node):
                     if self.ser.read() == b'\x4d':
                         frame = self.ser.read(30)
                         data = struct.unpack('!HHHHHHHHHHHHHH', frame[0:28])
-                        pm2_5 = float("{:.1f}".format(data[2]))
+                        pm2_5 = float("{:.1f}".format(data[3]))
+                        # pm2_5 = float("{:.1f}".format(data[6]))
+                        # pm1_0 = float("{:.1f}".format(data[5]))
+                        # pm10_0 = float("{:.1f}".format(data[7]))
 
                         if 0.0 <= pm2_5 <= 9.0:
                             PMh, PMl, AQIh, AQIl = 9.0, 0.0, 50, 0
