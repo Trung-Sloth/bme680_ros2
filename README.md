@@ -21,6 +21,16 @@ After that, click the Gear symbol in the upper left of the screen -> choose Proj
 3. `pip3 install adafruit-blinka`
 4. `pip3 install adafruit-circuitpython-bme680`
 5. `pip3 install pyrebase4`
-6. `sudo apt update
-    sudo apt install python3-serial`
+6. `sudo apt install python3-serial`
+7. Check I2C, UART Connection:
+        + `ls /dev/i2c-*`      : to check I2C
+        + `ls -l /dev/serial0` : to check UART
+    If nothing respone, run `sudo raspi-config`
+    Then choosse 'Seiral Port': 
+        "Would you like a login shell to be accessible over serial?" → Chọn No
+        "Would you like the serial port hardware to be enabled?" → Chọn Yes
+
+
+
+ 
 
