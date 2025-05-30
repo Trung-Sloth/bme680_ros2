@@ -27,9 +27,9 @@ After that, click the Gear symbol in the upper left of the screen -> choose Proj
 6. `sudo apt install python3-serial`
 7. Check I2C, UART Connection:
 
-        `ls /dev/i2c-*`      : to check I2C
+        ls /dev/i2c-*
    
-        `ls -l /dev/serial0` : to check UART
+        ls -l /dev/serial0
     If nothing respone, run `sudo raspi-config`.
    
     Then choosse 'Seiral Port': 
