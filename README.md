@@ -38,9 +38,11 @@ After that, click the Gear symbol in the upper left of the screen -> choose Proj
 
    To provide permission to I2C and UART connection:
    
-        `sudo usermod -aG dialout rasp_name`
+        sudo usermod -aG dialout rasp_name
    
-        `sudo usermod -aG i2c rasp_name`
+        sudo usermod -aG i2c rasp_name
+
+        sudo reboot
 
 
 
