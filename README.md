@@ -25,10 +25,10 @@ After that, click the Gear symbol in the upper left of the screen -> choose Proj
 7. Check I2C, UART Connection:
         + `ls /dev/i2c-*`      : to check I2C
         + `ls -l /dev/serial0` : to check UART
-    If nothing respone, run `sudo raspi-config`
+    If nothing respone, run `sudo raspi-config`.
     Then choosse 'Seiral Port': 
-        "Would you like a login shell to be accessible over serial?" → Chọn No
-        "Would you like the serial port hardware to be enabled?" → Chọn Yes
+        "Would you like a login shell to be accessible over serial?" → Choose No.
+        "Would you like the serial port hardware to be enabled?" → Choose Yes.
 
 
 
