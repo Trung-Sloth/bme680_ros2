@@ -33,7 +33,7 @@ class PMS7003Node(Node):
                 if self.ser.read() == b'\x42':
                     if self.ser.read() == b'\x4d':
                         frame = self.ser.read(30)
-                        data = struct.unpack('!HHHHHHHHHHHHHH', frame[0:28])
+                        data = struct.unpack('!HHHHHHHHHHHHHH', frame[0:28])    # H: unsigned short, unpack to decode the data (0-28: 2 bit start + 26=13*2 data)
                         pm2_5 = float("{:.1f}".format(data[3]))
                         # pm2_5 = float("{:.1f}".format(data[6]))
                         # pm1_0 = float("{:.1f}".format(data[5]))
