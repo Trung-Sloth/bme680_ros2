@@ -32,9 +32,11 @@ After that, click the Gear symbol in the upper left of the screen -> choose Proj
         ls -l /dev/serial0
     If nothing respone, run `sudo raspi-config`.
    
-    Then choosse 'Seiral Port': 
+    Then choose 'Seiral Port': 
         "Would you like a login shell to be accessible over serial?" → Choose No.
         "Would you like the serial port hardware to be enabled?" → Choose Yes.
+         Choose 'I2C' -> Choose Yes.
+        
 
    To provide permission to I2C and UART connection:
    
