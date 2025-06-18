@@ -24,7 +24,7 @@ db.child("bme680/list").remove()
 class PMS7003Node(Node):
     def __init__(self):
         super().__init__('pms7003_node')
-        self.ser = serial.Serial('/dev/serial0', baudrate=9600, timeout=1.0)
+        self.ser = serial.Serial('/dev/serial0', baudrate=9600, timeout=0.0)
         self.timer = self.create_timer(1.0, self.read_data)
 
     def read_data(self):
@@ -33,11 +33,10 @@ class PMS7003Node(Node):
                 if self.ser.read() == b'\x42':
                     if self.ser.read() == b'\x4d':
                         frame = self.ser.read(30)
-                        data = struct.unpack('!HHHHHHHHHHHHHH', frame[0:28])    # H: unsigned short, unpack to decode the data (0-28: 2 bit start + 26=13*2 data)
-                        pm2_5 = float("{:.1f}".format(data[3]))
-                        # pm2_5 = float("{:.1f}".format(data[6]))
-                        # pm1_0 = float("{:.1f}".format(data[5]))
-                        # pm10_0 = float("{:.1f}".format(data[7]))
+                        data = struct.unpack('!HHHHHHHHHHHHHH', frame[0:28])
+                        pm2_5 = float("{:.1f}".format(data[4]))
+                        # pm1_0 = float("{:.1f}".format(data[3]))
+                        # pm10_0 = float("{:.1f}".format(data[5]))
 
                         if 0.0 <= pm2_5 <= 9.0:
                             PMh, PMl, AQIh, AQIl = 9.0, 0.0, 50, 0
@@ -69,6 +68,7 @@ class PMS7003Node(Node):
                             stat = "Nguy hiểm"
 
                         self.get_logger().info(f'AQI: {aqi}, PM2.5: {pm2_5} µg/m3, Status: {stat}')
+                        # self.get_logger().info(f'{pm2_5}, {pm1_0}')
 
                         data = {
                             "PM2_5": pm2_5,
